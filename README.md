@@ -1,2 +1,2 @@
 # Swifteroids
-Asteroids game written in Swift 2.0 for iOS using Ash.
+Asteroids game for iOS written in Swift 2.0 using Ash.
