@@ -18,7 +18,7 @@ class GameManager : System
         self.config = config
     }
     
-    override func addToEngine( engine: Engine! )
+    override func addToEngine( engine: Engine )
     {
         gameNodes = engine.getNodeList( GameNode )
         spaceships = engine.getNodeList( SpaceshipNode )
@@ -81,7 +81,7 @@ class GameManager : System
         }
     }
     
-    override func removeFromEngine( engine: Engine! )
+    override func removeFromEngine( engine: Engine )
     {
         gameNodes = nil
         spaceships = nil

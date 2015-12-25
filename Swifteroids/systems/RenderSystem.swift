@@ -12,7 +12,7 @@ class RenderSystem : System
         super.init()
     }
     
-    override func addToEngine(engine: Engine!)
+    override func addToEngine(engine: Engine)
     {
         nodes = engine.getNodeList( RenderNode )
         for node in nodes

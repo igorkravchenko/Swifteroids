@@ -4,13 +4,13 @@ class StarFieldMovementSystem : System
     var starfields : NodeList!
     var spaceships : NodeList!
     
-    override func addToEngine( engine : ASHEngine! )
+    override func addToEngine( engine : Engine )
     {
         starfields = engine.getNodeList( StarFieldNode )
         spaceships = engine.getNodeList( MotionControlNode )
     }
     
-    override func removeFromEngine( engine : ASHEngine! )
+    override func removeFromEngine( engine : Engine )
     {
         starfields = nil
         spaceships = nil

@@ -16,7 +16,7 @@ class CollisionSystem : System
         super.init()
     }
     
-    override func addToEngine(engine: Engine!)
+    override func addToEngine(engine: Engine)
     {
         games = engine.getNodeList( GameNode )
         spaceships = engine.getNodeList( SpaceshipCollisionNode )
@@ -79,7 +79,7 @@ class CollisionSystem : System
         }
     }
 
-    override func removeFromEngine( engine : Engine! )
+    override func removeFromEngine( engine : Engine )
     {
         spaceships = nil
         asteroids = nil
