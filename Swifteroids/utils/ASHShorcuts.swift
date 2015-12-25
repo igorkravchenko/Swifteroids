@@ -65,7 +65,7 @@ extension Entity
         return addComponent( component )
     }
     
-    func get( componentClass : AnyClass ) -> AnyObject
+    func get( componentClass : AnyClass ) -> AnyObject?
     {
         return getComponent( componentClass )
     }
