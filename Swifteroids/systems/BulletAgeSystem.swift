@@ -17,7 +17,7 @@ class BulletAgeSystem : ListIteratingSystem
         bullet.lifeRemaining -= CGFloat( time.floatValue )
         if ( bullet.lifeRemaining <= 0)
         {
-            creator.destroyEntity( node.entity! )
+            creator.destroyEntity( node.entity )
         }
     }
 }

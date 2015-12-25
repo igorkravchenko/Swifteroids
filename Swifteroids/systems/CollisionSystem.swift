@@ -35,7 +35,7 @@ class CollisionSystem : System
                 // TODO: calclate distance as squared
                 if CGPoint.distance( a: asteroid.position.position, b: bullet.position.position ) <= asteroid.collision.radius
                 {
-                    creator.destroyEntity( bullet.entity! )
+                    creator.destroyEntity( bullet.entity )
                     if asteroid.collision.radius > 10
                     {
                         creator.createAsteroid( radius: asteroid.collision.radius - 10,

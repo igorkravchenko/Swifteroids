@@ -16,7 +16,7 @@ class DeathThroesSystem : ListIteratingSystem
         node.death.countdown -= CGFloat( time.floatValue )
         if node.death.countdown <= 0
         {
-            creator.destroyEntity( node.entity! )
+            creator.destroyEntity( node.entity )
         }
     }
 }

@@ -33,7 +33,7 @@ class WaitForStartSystem : System
                     for asteroidNode in asteroids
                     {
                         let asteroid = asteroidNode as! AsteroidCollisionNode
-                        creator.destroyEntity( asteroid.entity! );
+                        creator.destroyEntity( asteroid.entity );
                     }
                     
                     game.state.setForStart()
