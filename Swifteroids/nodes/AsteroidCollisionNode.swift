@@ -1,8 +1,8 @@
 
 class AsteroidCollisionNode : Node
 {
-    var asteroid : Asteroid!
-    var position : Position!
-    var collision : Collision!
-    var audio : Audio!
+    weak var asteroid : Asteroid!
+    weak var position : Position!
+    weak var collision : Collision!
+    weak var audio : Audio!
 }

@@ -1,6 +1,6 @@
 
 class SpaceshipNode : Node
 {
-    var spaceship : Spaceship!
-    var position : Position!
+    weak var spaceship : Spaceship!
+    weak  var position : Position!
 }

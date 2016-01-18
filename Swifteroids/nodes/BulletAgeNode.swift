@@ -1,5 +1,5 @@
 
 class BulletAgeNode : Node
 {
-    var bullet : Bullet!
+    weak var bullet : Bullet!
 }

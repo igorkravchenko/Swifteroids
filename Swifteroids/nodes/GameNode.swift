@@ -1,5 +1,5 @@
 
 class GameNode : Node
 {
-    var state : GameState!
+    weak var state : GameState!
 }

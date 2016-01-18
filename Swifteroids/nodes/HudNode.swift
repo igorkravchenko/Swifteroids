@@ -1,6 +1,6 @@
 
 class HudNode : Node
 {
-    var state : GameState!
-    var hud : Hud!
+    weak var state : GameState!
+    weak var hud : Hud!
 }

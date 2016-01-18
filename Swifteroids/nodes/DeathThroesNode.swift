@@ -1,5 +1,5 @@
 
 class DeathThroesNode : Node
 {
-    var death : DeathThroes!
+    weak var death : DeathThroes!
 }

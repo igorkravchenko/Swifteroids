@@ -3,8 +3,8 @@ import CoreGraphics.CGGeometry
 
 class GunControlSystem : ListIteratingSystem
 {
-    var triggerPoll : TriggerPoll
-    var creator : EntityCreator
+    unowned var triggerPoll : TriggerPoll
+    unowned var creator : EntityCreator
     
     init( triggerPoll : TriggerPoll, creator : EntityCreator )
     {

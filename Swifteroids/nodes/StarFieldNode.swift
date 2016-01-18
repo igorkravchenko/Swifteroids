@@ -1,5 +1,5 @@
 
 class StarFieldNode : Node
 {
-    var starField : StarField!
+    weak var starField : StarField!
 }

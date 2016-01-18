@@ -1,5 +1,5 @@
 
 class AnimationNode : Node
 {
-    var animation : Animation!
+    weak var animation : Animation!
 }

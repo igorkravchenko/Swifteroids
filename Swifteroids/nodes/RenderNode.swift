@@ -1,6 +1,6 @@
 
 class RenderNode : Node
 {
-    var position : Position!
-    var display : Display!
+    weak var position : Position!
+    weak var display : Display!
 }

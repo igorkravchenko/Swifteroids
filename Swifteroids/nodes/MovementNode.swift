@@ -1,6 +1,6 @@
 
 class MovementNode : Node
 {
-    var position : Position!
-    var motion : Motion!
+    weak var position : Position!
+    weak var motion : Motion!
 }

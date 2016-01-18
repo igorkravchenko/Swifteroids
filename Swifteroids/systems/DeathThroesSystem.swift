@@ -3,7 +3,7 @@ import CoreGraphics.CGGeometry
 
 class DeathThroesSystem : ListIteratingSystem
 {
-    private var creator : EntityCreator
+    unowned private var creator : EntityCreator
     
     init( creator:EntityCreator )
     {

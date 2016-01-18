@@ -1,8 +1,8 @@
 
 class StarFieldMovementSystem : System
 {
-    var starfields : NodeList!
-    var spaceships : NodeList!
+    weak var starfields : NodeList!
+    weak var spaceships : NodeList!
     
     override func addToEngine( engine : Engine )
     {

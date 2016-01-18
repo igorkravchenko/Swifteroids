@@ -3,8 +3,8 @@ import SpriteKit.SKNode
 
 class RenderSystem : System
 {
-    var container : SKNode
-    var nodes : NodeList!
+    unowned var container : SKNode
+    weak var nodes : NodeList!
     
     init ( container : SKNode )
     {

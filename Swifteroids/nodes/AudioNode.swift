@@ -1,5 +1,5 @@
 
 class AudioNode : Node
 {
-    var audio : Audio!
+    weak var audio : Audio!
 }

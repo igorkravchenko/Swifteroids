@@ -1,8 +1,8 @@
 
 class SpaceshipCollisionNode : Node
 {
-    var spaceship : Spaceship!
-    var position : Position!
-    var collision : Collision!
-    var audio : Audio!
+    weak var spaceship : Spaceship!
+    weak var position : Position!
+    weak var collision : Collision!
+    weak var audio : Audio!
 }

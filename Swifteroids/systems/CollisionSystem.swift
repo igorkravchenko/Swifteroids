@@ -3,12 +3,12 @@ import CoreGraphics.CGGeometry
 
 class CollisionSystem : System
 {
-    var creator : EntityCreator
-    
-    var games : NodeList!
-    var spaceships : NodeList!
-    var asteroids : NodeList!
-    var bullets : NodeList!
+    unowned var creator : EntityCreator
+
+    weak var games : NodeList!
+    weak var spaceships : NodeList!
+    weak var asteroids : NodeList!
+    weak var bullets : NodeList!
     
     init( creator : EntityCreator )
     {

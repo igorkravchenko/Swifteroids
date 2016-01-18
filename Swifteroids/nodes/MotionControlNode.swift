@@ -1,7 +1,7 @@
 
 class MotionControlNode : Node
 {
-    var control : MotionControls!
-    var position : Position!
-    var motion : Motion!
+    weak var control : MotionControls!
+    weak var position : Position!
+    weak var motion : Motion!
 }

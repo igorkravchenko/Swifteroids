@@ -5,12 +5,12 @@ import CoreGraphics.CGGeometry
 class GameManager : System
 {
     private var config : GameConfig
-    private var creator : EntityCreator
+    unowned private var creator : EntityCreator
     
-    private var gameNodes : NodeList!
-    private var spaceships : NodeList!
-    private var asteroids : NodeList!
-    private var bullets : NodeList!
+    weak private var gameNodes : NodeList!
+    weak private var spaceships : NodeList!
+    weak private var asteroids : NodeList!
+    weak private var bullets : NodeList!
     
     init( creator : EntityCreator, config : GameConfig )
     {

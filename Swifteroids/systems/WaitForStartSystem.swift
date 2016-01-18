@@ -1,12 +1,12 @@
 
 class WaitForStartSystem : System
 {
-    private weak var engine : Engine!
-    private var creator : EntityCreator
+    weak private var engine : Engine!
+    weak private var creator : EntityCreator!
     
-    private var gameNodes : NodeList!
-    private var waitNodes : NodeList!
-    private var asteroids : NodeList!
+    weak private var gameNodes : NodeList!
+    weak private var waitNodes : NodeList!
+    weak private var asteroids : NodeList!
     
     init( creator : EntityCreator )
     {

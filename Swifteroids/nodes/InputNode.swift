@@ -1,5 +1,5 @@
 
 class InputNode : Node
 {
-    var input : Input!
+    weak var input : Input!
 }

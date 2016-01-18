@@ -1,5 +1,5 @@
 
 class WaitForStartNode : Node
 {
-    var wait : WaitForStart!
+    weak var wait : WaitForStart!
 }

@@ -1,7 +1,7 @@
 
 class BulletCollisionNode : Node
 {
-    var bullet : Bullet!
-    var position : Position!
-    var collision : Collision!
+    weak var bullet : Bullet!
+    weak var position : Position!
+    weak var collision : Collision!
 }
